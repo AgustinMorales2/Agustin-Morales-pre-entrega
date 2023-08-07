@@ -11,17 +11,17 @@
 }
 
 .navbar-brand img {
-  height: 40px; /* Ajusta el tamaño de acuerdo a tu logo */
+  height: 40px;
 }
 
-/* Estilo de los enlaces en la barra de navegación */
+
 .navbar-nav .nav-link {
   margin-right: 40px; 
     color: white;
 }
 
 .navbar-nav .nav-link:hover {
-  color: white; /* Cambiar el color al pasar el mouse por encima */
+  color: white; /
 }
 
   h1 {
@@ -47,31 +47,30 @@
     margin: 0 auto;
     padding: 20px;
   }
-/* Aplica estilos para dispositivos con un ancho máximo de 768px (tablets y dispositivos móviles) */
+
 @media (max-width: 768px) {
-  /* Ajusta el tamaño del h1 para tablets y dispositivos móviles */
+ 
   h1 {
     font-size: 20px;
   }
 
-  /* Ajusta el tamaño del h2 para tablets y dispositivos móviles */
+
   h2 {
     font-size: 16px;
     text-align: center;
   }
 
-  /* Ajusta el tamaño del botón para tablets y dispositivos móviles */
+
   .my-button {
     font-size: 14px;
     text-align: center;
   }
 
-  /* Ajusta el tamaño del video para tablets y dispositivos móviles */
+
   .video iframe {
     height: 150px;
   }
 
-  /* Ajusta los estilos de la barra de navegación para tablets y dispositivos móviles */
   .navbar-nav .nav-item .nav-link {
     font-size: 14px;
     margin: 5px 0;
@@ -110,9 +109,7 @@
       flex: 1;      
       padding: 20px;
     }
-      /* Estilo del footer */
-/* Estilo del footer */
-/* Estilo del footer */
+    
 .footer {
   position: fixed;
   bottom: 0;
@@ -124,7 +121,6 @@
   text-align: center;
 }
 
-/* Estilo de los enlaces en el footer */
 .footer-links {
   list-style: none;
   padding: 0;
@@ -146,7 +142,7 @@
   color: #ddd;
 }
 
-/* Estilos adicionales para hacer el footer más atractivo */
+
 
 .footer-links li:first-child {
   margin-left: 0;
@@ -170,7 +166,7 @@
   margin-bottom: 0;
 }
 
-/* Estilos para hacer el footer responsive en dispositivos móviles */
+
 
 @media screen and (max-width: 768px) {
   .footer-links {
@@ -264,3 +260,4 @@
 .imagen p {
   margin-top: 10px;
 }
+
