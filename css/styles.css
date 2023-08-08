@@ -68,7 +68,9 @@
 
 
   .video iframe {
-    height: 150px;
+    height: 300px;
+ width: 400px;
+
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -101,7 +103,6 @@
     
     .texto {
       flex: 1;
-  
       padding: 20px;
     }
     
@@ -110,61 +111,6 @@
       padding: 20px;
     }
     
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: black;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-links {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-links li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: #ddd;
-}
-
-
-
-.footer-links li:first-child {
-  margin-left: 0;
-}
-
-.footer-links li:last-child {
-  margin-right: 0;
-}
-
-.footer-nav::before,
-.footer-nav::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 2px;
-  background-color: #fff;
-  margin: 10px auto;
-}
-
-.footer-nav::after {
-  margin-bottom: 0;
-}
 
 
 
@@ -261,3 +207,111 @@
   margin-top: 10px;
 }
 
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ddd;
+}
+
+.footer-links li:first-child {
+  margin-left: 0;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav::before,
+.footer-nav::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  margin: 10px auto;
+}
+
+.footer-nav::after {
+  margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .producto {
+    width: calc(20% - 70px);
+   
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .product {
+    display: block; 
+  }
+  
+  .producto {
+    width: 100%; 
+    margin: 10px 0; 
+    margin-bottom: 70px;
+.form {
+  margin-bottom: 500px;
+}
+.sucursales {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 100px; 
+}
+
+.texto {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.map {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+  }
+}
