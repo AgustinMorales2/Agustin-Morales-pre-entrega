@@ -285,9 +285,13 @@
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) 
   .product {
     display: block; 
+  }
+
+  .navbar-toggler{
+    color: white;
   }
   
   .producto {
@@ -313,5 +317,4 @@
   border: 1px solid #ccc;
 }
 
-  }
 }
