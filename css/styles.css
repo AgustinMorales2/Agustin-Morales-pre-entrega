@@ -284,37 +284,37 @@
   }
 }
 
-
-@media screen and (max-width: 450px) 
+@media screen and (max-width: 768px) {
   .product {
-    display: block; 
-  }
+        display: flex;
+      flex-direction: column; /* Apila los elementos verticalmente */
+      }
 
-  .navbar-toggler{
-    color: white;
-  }
-  
+
   .producto {
+   margin-bottom: 10px;  
     width: 100%; 
     margin: 10px 0; 
     margin-bottom: 70px;
-.form {
-  margin-bottom: 500px;
-}
-.sucursales {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 100px; 
-}
+  }
 
-.texto {
-  padding: 20px;
-  border: 1px solid #ccc;
-}
+  .form {
+    margin-bottom: 500px;
+  }
 
-.map {
-  padding: 20px;
-  border: 1px solid #ccc;
-}
+  .sucursales {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 100px; 
+  }
 
+  .texto {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .map {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
 }
