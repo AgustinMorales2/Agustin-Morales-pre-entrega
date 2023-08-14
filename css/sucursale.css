@@ -1,0 +1,15 @@
+.sucursales {
+  display: flex;
+}
+
+.texto {
+  flex: 1;
+  padding: 20px;
+}
+
+.map {
+  flex: 1;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=sucursale.css.map */

@@ -287,7 +287,7 @@
 @media screen and (max-width: 768px) {
   .product {
         display: flex;
-      flex-direction: column; /* Apila los elementos verticalmente */
+      flex-direction: column; 
       }
 
 

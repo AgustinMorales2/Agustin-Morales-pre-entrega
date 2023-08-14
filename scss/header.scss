@@ -1,0 +1,23 @@
+.navbar {
+    background-color: $color-fondo !important;
+    color: $color-texto;
+  
+    &-brand {
+      margin-right: $espaciado-brand;
+  
+      img {
+        height: $altura-logo;
+      }
+    }
+  
+    &-nav {
+      & .nav-link {
+        margin-right: $espaciado-enlace;
+        color: $color-texto;
+  
+        &:hover {
+          color: $color-texto;
+        }
+      }
+    }
+  }

@@ -1,0 +1,20 @@
+.contact-form {
+  max-width: $max-ancho-formulario;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: $espaciado-general;
+}
+
+label {
+  display: block;
+  margin-bottom: $espaciado-etiqueta;
+}
+
+input, textarea {
+  width: 100%;
+  padding: $espaciado-interior-input;
+  border: $bordes-ancho solid $bordes-color;
+  border-radius: $bordes-radio;
+}
